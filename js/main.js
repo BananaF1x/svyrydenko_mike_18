@@ -1,7 +1,6 @@
 let firstNumber;
 let secondNumber;
 let operator;
-let reapet;
 let chek;
 do {
     chek = true;
@@ -38,5 +37,5 @@ do {
             }
         break;
     }
-    reapet = prompt("Reapet ?") == "yes" ? chek = true : chek = false;
+    prompt("Reapet ?") == "yes" ? chek = true : chek = false;
 } while (chek);
