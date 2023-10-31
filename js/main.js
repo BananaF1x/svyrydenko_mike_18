@@ -23,20 +23,20 @@ do {
     switch (operator) {
         case "add":
             alert(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`);
-            break;
+         break;
         case "sub":
             alert(`${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}`);
-            break;
+        break;
         case "mult":
             alert(`${firstNumber} * ${secondNumber} = ${firstNumber * secondNumber}`);
-            break;
+        break;
         case "div":
             if (secondNumber == 0) {
                 alert("You can't divide by 0");
             } else {
                 alert(`${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`);
             }
-            break;
+        break;
     }
     reapet = prompt("Reapet ?") == "yes" ? chek = true : chek = false;
 } while (chek);
